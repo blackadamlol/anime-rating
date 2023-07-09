@@ -1,9 +1,98 @@
-.whole-webpage{
-    height: 100vh;
-    background-color: rgb(222, 222, 222);
-}
-
-.cards{
+/* App.css */
+.App {
+    text-align: center;
+    background-color: rgb(50, 50, 50);
+    font-family: "Arial", sans-serif;
+    color: white;
+  }
+  
+  .card-row {
     display: flex;
-    flex-direction: row;
-}
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .card {
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #272727;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  .card_info {
+    text-align: center;
+  }
+  
+  .card_info p {
+    font-size: 16px;
+    color: #bbb;
+    margin-bottom: 5px;
+  }
+  
+  .card_info h1 {
+    font-size: 24px;
+    color: #ff5f00;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .card_info a {
+    display: inline-block;
+    background-color: #ff5f00;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: 400ms;
+    border: #ff5f00 3px solid;
+  }
+  
+  .card_info a:hover {
+    background-color: #ffff;
+    color: #272727;
+    font-size: 20px;
+    border-radius: 8px;
+    font-weight: 500;
+    border: #ff5f00 3px solid;
+    transition: 600ms;
+  }
+  
+  /* Cards.css */
+  .cards {
+    margin-top: 50px;
+  }
+  
+  /* Customize specific elements for the Naruto theme */
+  .card {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  .card img {
+    border-radius: 10px;
+  }
+  
+  .card_info h1 {
+    color: #ff5f00;
+  }
+  
+  .card_info p {
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+  }
+  
