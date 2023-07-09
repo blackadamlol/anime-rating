@@ -1,6 +1,7 @@
 import naruto from "../images/narutoo.jpg";
 import onepiece from "../images/one-p.jpg";
 import bleach from "../images/bleach.jpg";
+import black from "../images/black.jpg"
 
 const AnimeData = [
   {
@@ -8,21 +9,28 @@ const AnimeData = [
     imgsrc: naruto,
     imgalt: "Naruto Image",
     title: "Naruto",
-    link: "www.zoro.bz"
+    links: "www.zoro.bz"
   },
   {
     name: "Anime",
     imgsrc: onepiece,
     imgalt: "One Piece Image",
     title: "One Piece",
-    link: "www.zoro.bz"
+    links: "www.zoro.bz"
   },
   {
     name: "Anime",
     imgsrc: bleach,
     imgalt: "Bleach Image",
     title: "Bleach",
-    link: "www.zoro.bz"
+    links: "www.zoro.bz"
+  },
+  {
+    name: "Anime",
+    imgsrc: black,
+    imgalt: "Black clover Image",
+    title: "Black Clover",
+    links: "www.zoro.bz"
   }
 ];
 
