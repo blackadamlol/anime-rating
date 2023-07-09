@@ -1,34 +1,32 @@
 import './App.css';
 import React from 'react';
 import Cards from './component/Cards';
-import naruto from "./images/narutoo.jpg"
-import onepiece from "./images/one-p.jpg"
-import bleach from "./images/bleach.jpg"
+import AnimeData from "./component/AnimeData"
 function App() {
   return (
     <div className="App">
       <Cards
-        imgsrc={naruto}
-        imgalt="Naruto Image"
-        title="Anime"
-        name="Naruto"
-        link="www.zoro.bz" 
+        imgsrc={AnimeData[0].imgsrc}
+        imgalt={AnimeData[0].imgalt}
+        title={AnimeData[0].title}
+        name={AnimeData[0].name}
+        link={AnimeData[0].links}
       />
 
       <Cards
-        imgsrc={onepiece}
-        imgalt="one piece Image"
-        title="Anime"
-        name="One Piece"
-        link="www.zoro.bz" 
+        imgsrc={AnimeData[1].imgsrc}
+        imgalt={AnimeData[1].imgalt}
+        title={AnimeData[1].title}
+        name={AnimeData[1].name}
+        link={AnimeData[1].links}
       />
       
       <Cards
-        imgsrc={bleach}
-        imgalt="Bleach Image"
-        title="Anime"
-        name="Bleach"
-        link="www.zoro.bz" 
+        imgsrc={AnimeData[1].imgsrc}
+        imgalt={AnimeData[1].imgalt}
+        title={AnimeData[1].title}
+        name={AnimeData[1].name}
+        link={AnimeData[1].links}
       />
     </div>
   );
