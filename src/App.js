@@ -1,12 +1,13 @@
-import "./component/Cards.css";
 import React from 'react';
+import './App.css';
 import Cards from './component/Cards';
-import AnimeData from "./component/AnimeData"
+import AnimeData from './component/AnimeData';
 
 function App() {
   return (
     <div className="App">
-      <div className="card-row"> 
+      <h1 className="title">Anime Finder</h1> {/* Add the title with the "title" class */}
+      <div className="card-row">
         {AnimeData.map((anime, index) => (
           <Cards
             key={index}
