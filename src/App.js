@@ -2,11 +2,12 @@ import React from 'react';
 import './App.css';
 import Cards from './component/Cards';
 import AnimeData from './component/AnimeData';
+import anifindlogo from "./images/anifind_logo.jpg"
 
 function App() {
   return (
     <div className="App">
-      <h1 className="title">Anime Finder</h1> {/* Add the title with the "title" class */}
+      <img src={anifindlogo} alt="logo of website"/>
       <div className="card-row">
         {AnimeData.map((anime, index) => (
           <Cards
