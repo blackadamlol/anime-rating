@@ -5,6 +5,15 @@
     font-family: "Arial", sans-serif;
     color: white;
   }
+
+  .logo{
+    width: 100%;
+    display: flex;
+  }
+
+  .logo img{
+    width: 300px;
+  }
   
   .card-row {
     display: flex;
@@ -95,20 +104,3 @@
     font-weight: 700;
     color: black;
   }
-/* App.css */
-
-.title {
-  font-family: 'Arial', sans-serif;
-  font-size: 48px;
-  padding-top: 2%;
-  margin: 0;
-  font-weight: bold;
-  color: white;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-  background-image: linear-gradient(to right, #ff5f00, #ff0080);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
