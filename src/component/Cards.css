@@ -1,10 +1,29 @@
-/* App.css */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(50, 50, 50);
+  font-family: "Arial", sans-serif;
+  color: white;
+}
+
+/* Ensure the whole app takes the full height of the viewport */
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
 .App {
   text-align: center;
   background-color: rgb(50, 50, 50);
   font-family: "Arial", sans-serif;
   color: white;
+  padding: 20px; /* Add padding to the whole app to improve readability */
+  flex: 1; /* Ensure the content takes the available space */
+  box-sizing: border-box; /* Include padding in the height calculation */
+  display: flex;
+  flex-direction: column; /* Align children in a column */
 }
 
 .header {
